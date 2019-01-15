@@ -95,7 +95,7 @@ namespace Strukturer
         public string Navn;
         public int Alder;
         public Point Point;
-        private int test;
+        public int test;
 
         //public void SætAlder(int alder)
         //{
@@ -108,7 +108,10 @@ namespace Strukturer
         private void Skriv()
         {
             //test = 1;
-
+            switch (switch_on)
+            {
+                default:
+            }
             Console.WriteLine("Jeg hedder " + Navn + " og er " + Alder + " år");
 
         } 
