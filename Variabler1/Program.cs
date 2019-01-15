@@ -101,17 +101,36 @@ namespace Variabler1
             }
 
             {
-                checked
-                {
-                    byte l = 255;
-                    l += 20;
-                    Console.WriteLine(l);
-                }
+                //checked
+                //{
+                //    byte l = 255;
+                //    l += 20;
+                //    Console.WriteLine(l);
+                //}
             }
 
+            {
+
+                byte a = 10;
+                int b = 30;
+
+                //b = a;
+
+                a = System.Convert.ToByte(b);
+                a = (byte)b;
+                Console.WriteLine(a);
+
+                
 
 
+            }
 
+            {
+
+                Console.WriteLine("Indtast 1. tal");
+                string tal1 = Console.ReadLine();
+                Console.WriteLine(tal1);
+            }
 
         }
     }
