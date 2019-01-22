@@ -45,7 +45,7 @@ namespace Strukturer
             Person p1 = new Person();
             p1.Navn = "Mathias";
             p1.Alder = 13;
-            p1.Skriv();
+            //p1.Skriv();
 
             Person p2;
             p2 = p1;
@@ -105,16 +105,16 @@ namespace Strukturer
         //        Alder = 1;
         //}
         
-        private void Skriv()
-        {
-            //test = 1;
-            switch (switch_on)
-            {
-                default:
-            }
-            Console.WriteLine("Jeg hedder " + Navn + " og er " + Alder + " år");
+        //private void Skriv()
+        //{
+        //    //test = 1;
+        //    switch (switch_on)
+        //    {
+        //        default:
+        //    }
+        //    Console.WriteLine("Jeg hedder " + Navn + " og er " + Alder + " år");
 
-        } 
+        //} 
 
     }
 }
