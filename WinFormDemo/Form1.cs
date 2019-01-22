@@ -22,7 +22,7 @@ namespace WinFormDemo
             Indkapsling.Person p = new Indkapsling.Person {
                 Navn = "a",
                 Fødselsdag = DateTime.Now,
-                ErILive =true,
+                ErILive2 =true,
                 Løn = 30000.24
             };
             propertyGrid1.SelectedObject = p;

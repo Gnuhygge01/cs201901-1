@@ -13,12 +13,20 @@ namespace Indkapsling
         {
             Person p = new Person();
             p.Navn = "a";
-            
+
             //p.SetNavn("a");
 
-            Console.WriteLine(p.Navn);
+            //Console.WriteLine(p.Navn);
 
-            Console.WriteLine(p.ToStringEx());
+            //Console.WriteLine(p.ToStringEx());
+
+            Hund h = new Hund();
+            Console.WriteLine(h.Navn); 
+            Console.WriteLine(h.ToStringEx());
+
+            Bil b = new Bil();
+            b.Model = "a";
+            Console.WriteLine(b.Model);
         }
     }
 
@@ -87,7 +95,7 @@ namespace Indkapsling
 
         private bool _erILive;
 
-        public bool ErILive
+        public bool ErILive2
         {
             get { return _erILive; }
             set { _erILive = value; }
@@ -102,5 +110,61 @@ namespace Indkapsling
         }
 
         // propfull
+    }
+
+    class Hund {
+
+        // prop
+        public string Navn { get; private set; }
+        //public int AntalBen { get; set; }
+        public bool ErILive { get; set; }
+
+        private int _antalBen;
+
+        public int AntalBen
+        {
+            get {
+
+                return _antalBen; }
+            set {
+
+                if (value > 4)
+                    throw new ApplicationException("Fejl");
+
+                    _antalBen = value; }
+        }
+
+        public void Skriv()
+        {
+            this.Navn = "";
+            throw new System.NotImplementedException();
+        }
+    }
+
+    class Bil {
+
+        private string _model;
+
+        public string Model
+        {
+            get {
+                // log
+                Console.WriteLine("Logger... " + _model);
+                return _model;
+
+            }
+            set {
+
+                _model = value;
+
+            }
+        }
+
+        public Bil()
+        {
+            // _model = "";
+            Model = "";
+        }
+
     }
 }
