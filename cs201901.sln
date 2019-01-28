@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemo", "ArrayDemo\Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samlinger", "Samlinger\Samlinger.csproj", "{74D76D6F-C433-400C-A33E-D51E337FF989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartDag5", "StartDag5\StartDag5.csproj", "{4F1B8BA0-9A57-4764-B023-22D80C40FC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArvDemo", "ArvDemo\ArvDemo.csproj", "{7473F8CE-0FF5-4761-B8B3-79961F72C9A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{74D76D6F-C433-400C-A33E-D51E337FF989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D76D6F-C433-400C-A33E-D51E337FF989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74D76D6F-C433-400C-A33E-D51E337FF989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1B8BA0-9A57-4764-B023-22D80C40FC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1B8BA0-9A57-4764-B023-22D80C40FC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1B8BA0-9A57-4764-B023-22D80C40FC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1B8BA0-9A57-4764-B023-22D80C40FC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7473F8CE-0FF5-4761-B8B3-79961F72C9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7473F8CE-0FF5-4761-B8B3-79961F72C9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7473F8CE-0FF5-4761-B8B3-79961F72C9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7473F8CE-0FF5-4761-B8B3-79961F72C9A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
