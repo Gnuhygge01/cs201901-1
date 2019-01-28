@@ -38,7 +38,7 @@ namespace ArvDemo
             }
 
             Console.WriteLine();
-            Terning t2 = new Terning(7);
+            Terning t2 = new Terning(værdi: 7);
             t2.Skriv();
         }
     }
