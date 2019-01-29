@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace delegates_heltsimpel
 {
+    // test
     //public delegate void MinDelegate1(string t);
 
     class Program
