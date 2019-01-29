@@ -9,6 +9,9 @@ namespace delegates_heltsimpel
     // test
     //public delegate void MinDelegate1(string t);
 
+        // lkdf gældsfjg ælkjgsælkd jgsfg
+        // dsælkgf ædslkjfgsældkjg sældkfjg 
+
     class Program
     {
         static void Main(string[] args)
